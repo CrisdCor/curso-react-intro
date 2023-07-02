@@ -1,9 +1,11 @@
+import "./TodoItem.css";
+
 function TodoItem(props) {
   return (
-    <li>
-      <span>V</span>
+    <li className="item-container">
+      <button className="check-item"></button>
       <p>{props.text}</p>
-      <span>X</span>
+      <button className="trash-item"></button>
     </li>
   );
 }

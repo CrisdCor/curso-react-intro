@@ -1,7 +1,7 @@
 import "./CreateTodoButton.css";
 
 function CreateTodoButton() {
-  return <button>AGREGAR TAREA</button>;
+  return <button className="add-button">AGREGAR TAREA</button>;
 }
 
 export { CreateTodoButton };

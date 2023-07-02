@@ -1,0 +1,34 @@
+.item-container {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #004170;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.check-item {
+  width: 46px;
+  height: 100%;
+  background-image: url(./assets/icons/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: 0;
+}
+
+.item-container p {
+  width: 100%;
+  text-align: left;
+}
+.trash-item {
+  width: 46px;
+  height: 100%;
+  background-image: url(./assets/icons/trash.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: 0;
+}

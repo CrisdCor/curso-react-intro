@@ -1,0 +1,22 @@
+.search-container {
+  width: 320px;
+  height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.search-container img {
+  width: 24px;
+}
+
+.search-container input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 16px;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
