@@ -9,14 +9,16 @@
 
 .search-container img {
   width: 24px;
+  margin: 0 14px;
 }
 
 .search-container input {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0 16px;
   border: 0;
   background: transparent;
   outline: none;
+  color: #004170;
+  font-size: 16px;
 }

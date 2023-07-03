@@ -2,33 +2,53 @@
   width: 100%;
   height: 41px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   font-size: 16px;
   color: #004170;
   border-bottom: 1px solid #d9d9d9;
 }
 
-.check-item {
-  width: 46px;
-  height: 100%;
-  background-image: url(./assets/icons/check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  border: 0;
+.icon-item {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.item-container p {
-  width: 100%;
-  text-align: left;
+.check-item {
+  width: 20px;
+  transition: transform 0.6s;
+  fill: #20c505;
 }
+
+.check-item:hover {
+  transform: scale(1.2);
+  transition: transform 0.4s;
+}
+
+.check-item--active {
+}
+
+.text-item {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.text-item--complete {
+  text-decoration: line-through;
+}
+
 .trash-item {
-  width: 46px;
-  height: 100%;
-  background-image: url(./assets/icons/trash.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  border: 0;
+  width: 20px;
+  transition: transform 0.6s;
+}
+
+.trash-item:hover {
+  fill: #ff5050;
+  transform: scale(1.2);
+  transition: transform 0.4s;
 }

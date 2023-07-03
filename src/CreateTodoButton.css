@@ -8,4 +8,11 @@
   font-size: 18px;
   font-weight: 400;
   color: white;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+.add-button:hover {
+  box-shadow: 0 0 18px #004170;
+  transition: box-shadow 0.3s;
 }
