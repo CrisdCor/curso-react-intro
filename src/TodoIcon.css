@@ -1,0 +1,23 @@
+.icon-container {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-item {
+  width: 19px;
+  transition: all 1s;
+}
+
+.icon-container--delete:hover .icon-item {
+  fill: #ff5050;
+  transition: fill 1s;
+}
+
+.icon-container--check:hover .icon-item {
+  fill: #88ef78;
+  transition: fill 1s;
+}
