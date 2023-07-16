@@ -1,4 +1,5 @@
 .add-button {
+  /* z-index: 1; */
   width: 100%;
   max-width: 320px;
   height: 42px;

@@ -1,0 +1,20 @@
+.loading-text {
+  text-align: center;
+  color: #004170;
+  font-size: 34px;
+  opacity: 0.2;
+  animation: loader-animation 1.3s ease-in-out infinite;
+}
+
+@keyframes loader-animation {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

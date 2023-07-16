@@ -3,4 +3,5 @@
   margin: 0;
   padding: 24px 0;
   list-style: none;
+  transition: all 0.5s;
 }
