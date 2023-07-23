@@ -12,6 +12,7 @@ import { TodoForm } from "../TodoForm";
 import { TodoTitle } from "../TodoTitle";
 import { Modal } from "../Modal";
 import { TodoContext } from "../TodoContext";
+import { TodoSign } from "../TodoSign";
 
 function AppUI() {
   const {
@@ -45,12 +46,12 @@ function AppUI() {
           ))}
         </TodoList>
         <CreateTodoButton setOpenModal={setOpenModal} />
-
         {openModal && (
           <Modal>
             <TodoForm />
           </Modal>
         )}
+        <TodoSign />
       </TodoContainer>
     </>
   );
